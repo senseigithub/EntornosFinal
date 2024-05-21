@@ -1,6 +1,7 @@
 package dam.senseigithub;
-
+import java.util.logging.Logger;
 public class MainAlumno2{
+    static Logger logger = Logger.getLogger(MainAlumno2.class.getName());
     public static void main(String[] args) {
         TransportistaFede transportistaFede = new TransportistaFede();
         Punto origen = new Punto(0, 0);
@@ -11,21 +12,21 @@ public class MainAlumno2{
         double pesoPesado = 8.0; // Peso pesado
         try {
             double costeCorto = transportistaFede.presupuestar(origen, destinoCorto, pesoLigero);
-            System.out.println("Coste del envío corto (7 km, 3 kg): " + costeCorto);
+            logger.info("Coste del envío corto (7 km, 3 kg): " + costeCorto);
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            logger.info(e.getMessage());
         }
         try {
             double costeMedio = transportistaFede.presupuestar(origen, destinoMedio, pesoPesado);
-            System.out.println("Coste del envío medio (30 km, 8 kg): " + costeMedio);
+            logger.info("Coste del envío medio (30 km, 8 kg): " + costeMedio);
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            logger.info(e.getMessage());
         }
         try {
             double costeLargo = transportistaFede.presupuestar(origen, destinoLargo, pesoLigero);
-            System.out.println("Coste del envío largo (110 km, 3 kg): " + costeLargo);
+            logger.info("Coste del envío largo (110 km, 3 kg): " + costeLargo);
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            logger.info(e.getMessage());
         }
     }
 }
