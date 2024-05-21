@@ -15,3 +15,13 @@ r
 Bsrc/test/java/dam/senseigithub/TestDistanciaTransportistaFedu.java,7\a\7aecefec673caacb2baf9fe1b926d83bc665284f
 _
 /src/main/java/dam/senseigithub/MainAlumno2.java,a\4\a4bdd73409eea45cbfd9d3af13fc2fe40bf921df
+f
+6src/main/java/dam/senseigithub/DistanciaManhattan.java,2\5\25c0191a505a5cd9ea1164e2973cdb614e9d1cfa
+e
+5src/main/java/dam/senseigithub/DistanciaEuclidea.java,9\0\90d6617152d5bc7dcb4374534efae437685ffa11
+Y
+)src/main/java/dam/senseigithub/Punto.java,6\8\6893b16f0069b61a92e79c5ab4c7abb4519c25de
+e
+5src/main/java/dam/senseigithub/TransportistaSeul.java,7\3\739245d36fcdd93e1ae2d04f85222b21986d799b
+N
+src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
